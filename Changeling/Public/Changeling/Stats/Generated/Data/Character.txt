@@ -1,0 +1,13 @@
+new entry "HeroChangelingMasc"
+type "Character"
+using "_Hero"
+data "Weight" "80"
+data "StepsType" "Bare"
+data "Progressions" "413b0749-12f7-494a-a4a3-bbf630d09e48"
+
+new entry "HeroChangelingFem"
+type "Character"
+using "_Hero"
+data "Weight" "80"
+data "StepsType" "Bare"
+data "Progressions" "413b0749-12f7-494a-a4a3-bbf630d09e48"
