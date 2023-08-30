@@ -5,15 +5,15 @@
     <node id="Templates">
       <children>
         <node id="GameObjects">
-          <attribute id="MapKey" type="FixedString" value="1940cdd0-c2c7-477f-be62-7a978d6744ad" />
-          <attribute id="Name" type="LSString" value="BASE_Changeling_Fem" />
+          <attribute id="MapKey" type="FixedString" value="84db868b-2abd-473d-a3ee-d3a72ad90d3f" />
+          <attribute id="Name" type="LSString" value="BASE_Changeling_Masc" />
           <attribute id="LevelName" type="FixedString" value="" />
           <attribute id="Type" type="FixedString" value="character" />
-          <attribute id="ParentTemplateId" type="FixedString" value="" />
+          <attribute id="ParentTemplateId" type="FixedString" value="acd7060a-43bd-4dc9-b050-9d9b2cf7b7df" /> <!-- BASE_Humans_Male -->
           <attribute id="VisualTemplate" type="FixedString" value="" />
           <attribute id="Icon" type="FixedString" value="24bcc44f-4168-1468-222a-b1bb6370e000-_(Icon_Elf_Female)" />
           <attribute id="CharacterVisualResourceID" type="FixedString" value="" />
-          <attribute id="Race" type="guid" value="f95029a1-026d-4f80-a2bc-bafec6492cf4" />
+          <attribute id="Race" type="guid" value="f95029a1-026d-4f80-a2bc-bafec6492cf4" /> <!-- Changeling Race -->
           <children>
             <node id="GameMaster" />
             <node id="LocomotionParams" />

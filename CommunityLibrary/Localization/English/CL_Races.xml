@@ -6,4 +6,10 @@
   <content contentuid="h515f778eg01b0g41bagb385gef9be764943b" version="1">Sturdy Skeleton</content>
   <content contentuid="h6eceafc6g4862g4117ga9f2gaa453724b9b1" version="1">Sturdy Skeletons have an additional bonus to Constitution as well as Charisma.</content>
   <content contentuid="h5705fb92g95e4g4dcfgb700g5aff8ac0e26e" version="1">Dextrous Skeletons have +2 to Dexterity.</content>
+  <content contentuid="8bd5e4b6-bf40-4a20-9876-de9368d98215" version="1">Changeling</content>
+	<content contentuid="ae6b2523-4d05-4823-a3bd-ff1fd8332ed9" version="1">A mysterious race of people that are known for the innate shapeshifting abilities.</content>
+  <content contentuid="55dc312c-ae96-4273-8f40-09d78a8c8963" version="1">Human-like Changeling</content>
+	<content contentuid="167458b5-4a78-4590-bf5a-2d92c57e8bfb" version="1">Elf-like Changeling</content>
+  <content contentuid="c72b513d-27e0-46b1-99d1-e347cc70c6b8" version="1">Elf-like Changelings were born with features similar to Elves and have accustomed to living amongst them. Their knowledge of Elvish culture gives them an additional bonus to Intelligence.</content>
+	<content contentuid="114d0600-e37a-469f-8b64-3cf2e57c2ff7" version="1">Human-like Changelings were born with features similar to Humans and have accustomed to living amongst them. Humanity's stalwart resolve has rubbed off them, allowing have an additional bonus to Constitution.</content>
 </contentList>
