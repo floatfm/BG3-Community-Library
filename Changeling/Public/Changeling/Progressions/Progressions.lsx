@@ -12,26 +12,26 @@
                     <attribute id="PassivesAdded" type="LSString" value="Darkvision"/> <!-- investigate other passives that might be fun -->
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(eaddac52-37a6-4e7b-8567-3081aecefe52,,,,AlwaysPrepared,UntilShortRest"/> <!-- UUID from SpellLists.lsx -->
-                    <attribute id="TableUUID" type="guid" value="413b0749-12f7-494a-a4a3-bbf630d09e48"/> <!-- UUID to apply stats and spells from this code block to an assigned race -->
-                    <attribute id="UUID" type="guid" value="4557ea74-7d63-4621-9198-f43d8a5e5d02"/> <!-- UUID for this code block -->
+                    <attribute id="TableUUID" type="guid" value="fffdb799-9aaa-4023-b28a-8bb8227559e2"/> <!-- UUID to apply stats and spells from this code block to an assigned race -->
+                    <attribute id="UUID" type="guid" value="07b6a55d-a072-4559-8b0d-7b70d0a718e9"/> <!-- UUID for this code block -->
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="Ability(Constitution, 1)"/>
                     <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="HumanChangeling"/> <!-- Dex Subrace -->
+                    <attribute id="Name" type="LSString" value="HumanChangeling"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value=""/>
-                    <attribute id="TableUUID" type="guid" value="80b2552d-a325-424a-9581-c45d22c2a4d0"/> <!-- UUID to apply stats and spells from this code block to an assigned subrace -->
-                    <attribute id="UUID" type="guid" value="526226b2-c9b2-4428-95a4-134294e1d533"/> <!-- UUID for this code block -->
+                    <attribute id="TableUUID" type="guid" value="c314064c-5912-4176-a4f9-891c71b09bca"/> <!-- UUID to apply stats and spells from this code block to an assigned subrace -->
+                    <attribute id="UUID" type="guid" value="68f4b81e-dfd9-41f2-a9f6-0416fdd513cd"/> <!-- UUID for this code block -->
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="Ability(Intelligence, 1)"/>
                     <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="ElfChangeling"/> <!-- Sturdy Subrace -->
+                    <attribute id="Name" type="LSString" value="ElfChangeling"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value=""/>
-                    <attribute id="TableUUID" type="guid" value="ff1c6613-fcc0-411f-8825-0eb32bbe5491"/> <!-- UUID to apply stats and spells from this code block to an assigned subrace -->
-                    <attribute id="UUID" type="guid" value="4a572189-810e-4af6-8035-d38d2d2f4fcf"/> <!-- UUID for this code block -->
+                    <attribute id="TableUUID" type="guid" value="13035475-e8ed-4bf6-96a8-36bc28cea90c"/> <!-- UUID to apply stats and spells from this code block to an assigned subrace -->
+                    <attribute id="UUID" type="guid" value="33a19732-22ef-4555-b7ed-2ecb21934537"/> <!-- UUID for this code block -->
                 </node>
             </children>
         </node>
