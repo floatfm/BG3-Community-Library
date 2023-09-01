@@ -4,22 +4,22 @@
 	<region id="Templates">
 		<node id="Templates">
 
-			<!-- Human-like Changeling Masc Subrace -->
+			<!-- Elf-like Changeling Masc Subrace -->
 
 			<children>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="bdff737b-0ea9-4e91-a198-e15de31707b6" /> <!-- name of RootTemplate; called in CharacterCreationPresets.lsx -->
-					<attribute id="Name" type="LSString" value="Human_Masc_Changeling_Player" />
+					<attribute id="MapKey" type="FixedString" value="03aff83b-790a-432e-8511-dc4dd038666b" /> <!-- name of RootTemplate; called in CharacterCreationPresets.lsx -->
+					<attribute id="Name" type="LSString" value="Elf_Masc_Changeling_Player" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="84db868b-2abd-473d-a3ee-d3a72ad90d3f" /> <!-- MapKey of BASE_Masc_Changeling -->
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male" />
 					<attribute id="Stats" type="FixedString" value="HeroChangelingMasc" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="48abfe0e-0532-7cc2-cba8-0aafd2a239d3" /> <!-- Must match with ID at _merged.lsx -->
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="128747a8-e8f1-409a-b8a2-2b3b38e82852" /> <!-- Must match with ID at _merged.lsx -->
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="e1254a4e-3d52-76c2-7b19-52e93941b6dd" />
-					<!-- <attribute id="EquipmentRace" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human Male starter armor assignment -->
+					<!-- <attribute id="GeneratePortrait" type="LSString" value="Icon_Elf_Male" /> -->
+					<!-- <attribute id="EquipmentRace" type="guid" value="7dd0aa66-5177-4f65-b7d7-187c02531b0b" />  Male Elf starter armor assignment -->
 					<children>
 						<node id="SpeakerGroupList">
               			<children>

@@ -568,7 +568,7 @@
                     <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
                     <attribute id="Name" type="FixedString" value="CL_Changeling"/>
                     <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="413b0749-12f7-494a-a4a3-bbf630d09e48"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="fffdb799-9aaa-4023-b28a-8bb8227559e2"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Human"/>
                     <attribute id="UUID" type="guid" value="f95029a1-026d-4f80-a2bc-bafec6492cf4"/>
                     <children>
@@ -2373,21 +2373,14 @@
                 </node>
                 <node id="Race">
                     <attribute id="Description" type="TranslatedString" handle="114d0600-e37a-469f-8b64-3cf2e57c2ff7"/>
-                    <!-- Desc from .loca file-->
                     <attribute id="DisplayName" type="TranslatedString" handle="55dc312c-ae96-4273-8f40-09d78a8c8963"/>
-                    <!-- Name from .loca file-->
-                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="f95029a1-026d-4f80-a2bc-bafec6492cf4"/> <!-- 899d275e-9893-490a-9cd5-be856794929f -->
                     <attribute id="Name" type="FixedString" value="CL_Human-like Changeling"/>
-                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
-                    <!-- inheritting from Changeling Race Mod -->
-                    <attribute id="ProgressionTableUUID" type="guid" value="80b2552d-a325-424a-9581-c45d22c2a4d0"/>
-                    <!-- call from progressions.lsx to apply stats and spells to this subrace -->
+                    <attribute id="ParentGuid" type="guid" value="f95029a1-026d-4f80-a2bc-bafec6492cf4"/> <!-- inheritting from Changeling Race Mod -->
+                    <attribute id="ProgressionTableUUID" type="guid" value="c314064c-5912-4176-a4f9-891c71b09bca"/> <!-- call from progressions.lsx to apply stats and spells to this subrace -->
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Human"/>
-                    <!-- character sound library -->
-                    <attribute id="UUID" type="guid" value="569dea41-319f-4e54-914a-d2c04ff6dfd0"/>
-                    <!-- Human-like Changeling subrace UUID -->
-                    <attribute id="RaceEquipment" type="FixedString" value="EQ_Underwear_Humans"/>
-                    <!-- Starting Underwear Equipment -->
+                    <attribute id="UUID" type="guid" value="569dea41-319f-4e54-914a-d2c04ff6dfd0"/> <!-- Human-like Changeling subrace UUID -->
+                    <!-- <attribute id="RaceEquipment" type="FixedString" value="EQ_Underwear_Humans"/> -->
                     <children>
                         <node id="ExcludedGods">
                             <attribute id="Object" type="guid" value="5d733ec3-ad9a-4d26-bc9c-46a597b109b3"/>
@@ -3876,17 +3869,13 @@
                 <node id="Race">
                     <attribute id="Description" type="TranslatedString" handle="c72b513d-27e0-46b1-99d1-e347cc70c6b8"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="167458b5-4a78-4590-bf5a-2d92c57e8bfb"/>
-                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="f95029a1-026d-4f80-a2bc-bafec6492cf4"/> <!-- 899d275e-9893-490a-9cd5-be856794929f -->
                     <attribute id="Name" type="FixedString" value="CL_Elf-like Changeling"/>
-                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
-                    <!-- inheritting from Changeling Race Mod -->
-                    <attribute id="ProgressionTableUUID" type="guid" value="ff1c6613-fcc0-411f-8825-0eb32bbe5491"/>
-                    <!-- call from progressions.lsx to apply stats and spells to this subrace -->
-                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
-                    <attribute id="UUID" type="guid" value="86b95807-03bd-4032-9641-57d08e618c3d"/>
-                    <!-- Elf-like Changeling subrace UUID -->
-                    <attribute id="RaceEquipment" type="FixedString" value="EQ_Underwear_Elves"/>
-                    <!-- Starting Underwear Equipment -->
+                    <attribute id="ParentGuid" type="guid" value="f95029a1-026d-4f80-a2bc-bafec6492cf4"/> <!-- inheritting from Changeling Race Mod -->
+                    <attribute id="ProgressionTableUUID" type="guid" value="13035475-e8ed-4bf6-96a8-36bc28cea90c"/> <!-- call from progressions.lsx to apply stats and spells to this subrace -->
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/> 
+                    <attribute id="UUID" type="guid" value="86b95807-03bd-4032-9641-57d08e618c3d"/> <!-- Elf-like Changeling subrace UUID -->
+                    <!-- <attribute id="RaceEquipment" type="FixedString" value="EQ_Underwear_Elves"/> -->
                     <children>
                         <node id="ExcludedGods">
                             <attribute id="Object" type="guid" value="5d733ec3-ad9a-4d26-bc9c-46a597b109b3"/>
