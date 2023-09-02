@@ -16,7 +16,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroChangelingMasc" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="128747a8-e8f1-409a-b8a2-2b3b38e82852" /> <!-- Must match with ID at _merged.lsx -->
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="79ab321d-2fed-422d-83c1-101d85092f44" /> <!-- Must match with ID at _merged.lsx -->
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="e1254a4e-3d52-76c2-7b19-52e93941b6dd" />
 					<!-- <attribute id="GeneratePortrait" type="LSString" value="Icon_Elf_Male" /> -->
 					<!-- <attribute id="EquipmentRace" type="guid" value="7dd0aa66-5177-4f65-b7d7-187c02531b0b" />  Male Elf starter armor assignment -->
