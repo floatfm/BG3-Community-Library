@@ -97,9 +97,9 @@
           </children>
         </node>
         <node id="Resource">
-          <attribute id="BaseVisual" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
-          <attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" />
-          <attribute id="ID" type="FixedString" value="dc6eeffd-fee3-4a40-853f-fc7ab53c3694" />
+          <attribute id="BaseVisual" type="FixedString" value="414a7e5b-19b6-d244-2413-f4a938df690c" /> <!-- Hobgoblin Skeleton Rig -->
+          <attribute id="BodySetVisual" type="FixedString" value="6363f18b-6026-8b9f-66e0-fa1bac2d8b52" /> <!-- Hobgoblin Naked Male Body Mesh -->
+          <attribute id="ID" type="FixedString" value="dc6eeffd-fee3-4a40-853f-fc7ab53c3694" /> <!-- unique ID -->
           <attribute id="Localized" type="bool" value="False" />
           <attribute id="Name" type="LSString" value="BASE_Male_Changeling" />
           <attribute id="ShowEquipmentVisuals" type="bool" value="False" />

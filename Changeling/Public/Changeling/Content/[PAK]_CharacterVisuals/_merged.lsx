@@ -12,9 +12,9 @@
 			<children>
 				<!-- Human Masc -->
 					<node id="Resource">
-					<attribute id="BaseVisual" type="FixedString" value="dc6eeffd-fee3-4a40-853f-fc7ab53c3694" /> <!-- referencing BASE_Male_Changeling ID -->
-					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" />
-					<attribute id="ID" type="FixedString" value="35c814f3-b040-4a7e-937c-eda3a4de353f" /> <!-- 35c814f3-b040-4a7e-937c-eda3a4de353f -->
+					<attribute id="BaseVisual" type="FixedString" value="414a7e5b-19b6-d244-2413-f4a938df690c" /> <!-- Hobgoblin Skeleton Rig -->
+					<attribute id="BodySetVisual" type="FixedString" value="6363f18b-6026-8b9f-66e0-fa1bac2d8b52" /> <!-- Hobgoblin Naked Male Body Mesh -->
+					<attribute id="ID" type="FixedString" value="35c814f3-b040-4a7e-937c-eda3a4de353f" /> <!-- Unique ID -->
 					<attribute id="Name" type="LSString" value="Changelings_Human_Male_Player" />
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
@@ -274,7 +274,7 @@
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="Head" />
-							<attribute id="VisualResource" type="FixedString" value="5bd07e0f-bfac-568b-840c-9c5a50146648" />
+							<attribute id="VisualResource" type="FixedString" value="5bd07e0f-bfac-568b-840c-9c5a50146648" /> <!-- 2b7e2b9f-b471-5291-dfa6-3337071b0c86 HOB_M_NKD_Head_A -->
 						</node>
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />

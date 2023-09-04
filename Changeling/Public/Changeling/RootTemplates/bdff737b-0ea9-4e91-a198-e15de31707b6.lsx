@@ -5,6 +5,7 @@
 		<node id="Templates">
 
 			<!-- Human-like Changeling Masc Subrace -->
+			<!-- Shared\Public\Shared\RootTemplates\d1686869-2610-494a-8b12-93bdd2d18bba.lsx -->
 
 			<children>
 				<node id="GameObjects">
@@ -14,12 +15,12 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="84db868b-2abd-473d-a3ee-d3a72ad90d3f" /> <!-- MapKey of BASE_Masc_Changeling -->
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="Stats" type="FixedString" value="HeroChangelingMasc" />
+					<attribute id="Stats" type="FixedString" value="HeroChangelingMasc" /> 
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="3b6dd7ad-97c4-f2cd-ffa2-f317290c10ac" /> <!-- changed whole chara to hobgoblin -->
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3b6dd7ad-97c4-f2cd-ffa2-f317290c10ac" /> <!-- CharacterVisualResourceID for Hobgoblins_Male RootTemplate ; changed whole chara to hobgoblin -->
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="e1254a4e-3d52-76c2-7b19-52e93941b6dd" />
 					<!-- <attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male" /> -->
-					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> <!-- Human Male strong starter armor assignment. -->
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> <!-- Male strong starter armor assignment. -->
 					<!-- ^^^ Get rid of this line to just see default hobgoblin armor in CC. Doesn't affect in-game visuals but does affect starting inventory. -->
 					<children>
 						<node id="Tags">
