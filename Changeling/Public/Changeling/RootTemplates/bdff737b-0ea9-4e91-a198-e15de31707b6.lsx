@@ -16,11 +16,19 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroChangelingMasc" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="48abfe0e-0532-7cc2-cba8-0aafd2a239d3" /> <!-- Must match with ID at _merged.lsx -->
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3b6dd7ad-97c4-f2cd-ffa2-f317290c10ac" /> <!-- changed whole chara to hobgoblin -->
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="e1254a4e-3d52-76c2-7b19-52e93941b6dd" />
 					<!-- <attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male" /> -->
-					<!-- <attribute id="EquipmentRace" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human Male starter armor assignment -->
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> <!-- Human Male strong starter armor assignment. -->
+					<!-- ^^^ Get rid of this line to just see default hobgoblin armor in CC. Doesn't affect in-game visuals but does affect starting inventory. -->
 					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-00a7-e9be20969773" /> <!-- strong tag -->
+								</node>
+							</children>
+						</node>
 						<node id="SpeakerGroupList">
               			<children>
 								<node id="SpeakerGroup">
